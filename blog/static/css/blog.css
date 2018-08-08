@@ -39,3 +39,9 @@ h1, h2, h3, h4 {
     float: right;
 }
 
+.top-menu, .top-menu:hover {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
