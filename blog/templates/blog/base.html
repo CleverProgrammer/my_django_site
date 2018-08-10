@@ -18,6 +18,8 @@
         <a href="{% url 'post_draft_list' %}" class="top-menu"><i class="fab fa-firstdraft fa-2x"></i></a>
         <a href="{% url 'post_new' %}" class="top-menu"><i class="fas fa-plus fa-2x"></i></a>
 
+        <p class="top-menu">Hello, {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+
     {% else %}
         <a href="{% url 'login' %}" class="top-menu"><i class="fas fa-sign-in-alt fa-2x"></i></a>
 
